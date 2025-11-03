@@ -28,5 +28,10 @@
                 sh 'python3 script1.py'
             }
         }
+             stage('cleaning') {
+            steps {
+               echo 'cleaning'
+            }
+        }
     }
 }
